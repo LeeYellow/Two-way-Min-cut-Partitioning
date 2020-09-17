@@ -1,0 +1,13 @@
+--How to compile
+under this dictionary, enter the following command:
+$ make
+It will generate a executable file "main" in the same dictionary.
+
+$ make clean
+It will remove the executable file "main" in the same dictionary.
+
+
+--How to run
+Usage: ./<exe>  <cells>  <nets>  <output file name>
+e.g.:
+./main ../testcases/p2-3.cells ../testcases/p2-3.nets ../output/p2-3.out
